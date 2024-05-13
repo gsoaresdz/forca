@@ -26,6 +26,8 @@ Este projeto é uma implementação do famoso jogo da Forca em Python. O objetiv
 Este jogo foi desenvolvido utilizando:
 
 - [Python](https://www.python.org/)
+- [Jupyter](https://jupyter.org/)
+- [Anaconda](https://www.anaconda.com
 
 ## :white_check_mark: Requerimentos
 
