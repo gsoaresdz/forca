@@ -1,32 +1,71 @@
-# **Jogo da Forca**
+<h1 align="center">Jogo da Forca em Python</h1>
 
-Este projeto é uma implementação do famoso jogo da Forca em Python. O objetivo do jogo é adivinhar a palavra secreta, letra por letra, antes de ser enforcado.
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/gsoaresdz/forca?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/gsoaresdz/forca/jogo-da-forca?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gsoaresdz/forca?color=56BEB8">
+</p>
 
-## **Instalação**
+<p align="center">
+  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0;
+  <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requerimentos">Requerimentos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-execução">Execução</a> &#xa0; | &#xa0;
+  <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
+  <a href="https://github.com/seuusuario" target="_blank">Autor</a>
+</p>
 
-Clone este repositório e execute o arquivo principal:
+<br>
+
+## :dart: Sobre
+
+Este projeto é uma implementação do famoso jogo da Forca em Python. O objetivo é adivinhar a palavra secreta, letra por letra, antes de ser "enforcado".
+
+## :rocket: Tecnologias
+
+Este jogo foi desenvolvido utilizando:
+
+- [Python](https://www.python.org/)
+
+## :white_check_mark: Requerimentos
+
+Antes de começar :checkered_flag:, você precisa ter o [Git](https://git-scm.com) e o [Python](https://www.python.org/) instalado.
+
+## :checkered_flag: Execução
 
 ```bash
-git clone https://github.com/seuusuario/jogo-da-forca.git
-cd jogo-da-forca
+# Clone do projeto
+git clone https://github.com/gsoaresdz/forca.git
+
+# Execute o jogo
 python forca.py
 ```
 
-## **Como jogar**
+## **:video_game: Como jogar**
 
 1. Inicie o jogo executando o arquivo **`forca.py`**.
 2. Digite a letra que você acredita fazer parte da palavra secreta.
 3. Continue adivinhando as letras até acertar a palavra ou até esgotar suas tentativas.
 
-## **Funcionalidades**
+## **:memo: Funcionalidades**
 
-O código inclui as seguintes funções:
+- **`imprime_mensagem_abertura()`**: Mensagem de boas-vindas.
+- **`carrega_palavra_secreta()`**: Carrega uma palavra aleatória.
+- **`inicializa_letras_acertadas(palavra)`**: Prepara o display das letras.
+- **`pede_chute()`**: Solicita o chute do jogador.
+- **`marca_chute_correto(chute, letras_acertadas, palavra_secreta)`**: Atualiza letras acertadas.
+- **`desenha_forca(erros)`**: Atualiza o estado da forca.
+- **`imprime_mensagem_vencedor()`**: Mensagem de vitória.
+- **`imprime_mensagem_perdedor(palavra_secreta)`**: Mensagem de derrota e revela a palavra.
 
-- **`imprime_mensagem_abertura()`**: Imprime a mensagem de boas-vindas ao jogo da Forca.
-- **`carrega_palavra_secreta()`**: Carrega uma palavra secreta aleatória de um arquivo de texto chamado **`palavras.txt`**.
-- **`inicializa_letras_acertadas(palavra)`**: Inicializa uma lista com espaços vazios representando as letras da palavra secreta.
-- **`pede_chute()`**: Pede ao jogador para digitar uma letra.
-- **`marca_chute_correto(chute, letras_acertadas, palavra_secreta)`**: Atualiza a lista de letras acertadas com a letra correta, caso o jogador acerte o chute.
-- **`desenha_forca(erros)`**: Desenha a forca de acordo com a quantidade de erros.
-- **`imprime_mensagem_vencedor()`**: Imprime a mensagem de vitória.
-- **`imprime_mensagem_perdedor(palavra_secreta)`**: Imprime a mensagem de derrota e revela a palavra secreta.
+## :memo: Licença
+
+Este projeto está sob licença do MIT. Para obter mais detalhes, consulte o arquivo [LICENSE](LICENSE).
+
+Feito com :heart: by <a href="https://github.com/gsoaresdz" target="_blank">gsoaresdz</a>
+
+&#xa0;
+
+<a href="#top">De volta ao topo</a>
+
+
