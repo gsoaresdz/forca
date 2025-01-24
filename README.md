@@ -1,8 +1,8 @@
 <h1 align="center">Hangman Game in Python</h1>
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/gsoaresdz/forca?color=56BEB8">
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/gsoaresdz/forca?color=56BEB8">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gsoaresdz/forca?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/gsoaresdz/hangman?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/gsoaresdz/hangman?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gsoaresdz/hangman?color=56BEB8">
 </p>
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0;
@@ -10,7 +10,7 @@
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-execution">Execution</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/seuusuario" target="_blank">Author</a>
+  <a href="https://github.com/gsoaresdz" target="_blank">Author</a>
 </p>
 <br>
 
@@ -36,7 +36,7 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com/) a
 bash
 CopyEdit
 # Clone the project
-git clone https://github.com/gsoaresdz/forca.git
+git clone https://github.com/gsoaresdz/hangman.git
 
 # Run the game
 python forca.py
